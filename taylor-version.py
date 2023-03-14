@@ -26,7 +26,7 @@ def load_data_byalbum(album):
 
 #--- MAIN CONFIG ---#
 data_load_state = st.text('Developed by Lilliam Romero Reyes')
-data_load_state = st.caption('Application that gathers and graphically represents data on Taylor Swifts discography from her first debut album "Taylor Swift" to her latest release Fearless (Taylors Version), then April 2021, showing the most relevant data on each of her songs')
+data_load_state = st.caption('Application that gathers and graphically represents data on Taylor Swifts discography from her first debut album "Taylor Swift" to her latest release Lover, then 2019, showing the most relevant data on each of her songs')
 data = load_data(100)
 st.header("Taylor Swift song database")
 
