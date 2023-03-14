@@ -106,7 +106,7 @@ bar_char_dance=px.bar(dance_song,
                     title="The danceability of a song by length",
                     labels=dict(danceabili="length", danceability="danceability"),
                     color_discrete_sequence=["#FE0000"],
-                    template="plotly_white")
+                    template="ggplot2")
 
 bar_char_dance.update_layout(plot_bgcolor="rgba(254, 0, 0)")
 st.plotly_chart(bar_char_dance)
